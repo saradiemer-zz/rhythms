@@ -1,0 +1,1725 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData gulp-install
+20 silly mapToRegistry name gulp-install
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'gulp-install',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'gulp-install',
+23 silly mapToRegistry   name: 'gulp-install',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/gulp-install
+25 verbose request uri https://registry.npmjs.org/gulp-install
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 4:40:02 PM
+28 verbose request id e654f9eb53d60572
+29 verbose etag "59f90a8f-6433"
+30 verbose lastModified Tue, 31 Oct 2017 23:43:11 GMT
+31 http request GET https://registry.npmjs.org/gulp-install
+32 http 304 https://registry.npmjs.org/gulp-install
+33 verbose headers { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   etag: '"59f90a8f-6433"',
+33 verbose headers   age: '538',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-ord1735-ORD',
+33 verbose headers   'x-cache': 'HIT',
+33 verbose headers   'x-cache-hits': '1',
+33 verbose headers   'x-timer': 'S1519339202.288873,VS0,VE1',
+33 verbose headers   vary: 'Accept-Encoding, Accept' }
+34 silly get cb [ 304,
+34 silly get   { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+34 silly get     via: '1.1 varnish',
+34 silly get     'cache-control': 'max-age=300',
+34 silly get     etag: '"59f90a8f-6433"',
+34 silly get     age: '538',
+34 silly get     connection: 'keep-alive',
+34 silly get     'x-served-by': 'cache-ord1735-ORD',
+34 silly get     'x-cache': 'HIT',
+34 silly get     'x-cache-hits': '1',
+34 silly get     'x-timer': 'S1519339202.288873,VS0,VE1',
+34 silly get     vary: 'Accept-Encoding, Accept' } ]
+35 verbose etag https://registry.npmjs.org/gulp-install from cache
+36 verbose get saving gulp-install to /Users/saradiemer/.npm/registry.npmjs.org/gulp-install/.cache.json
+37 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+38 silly pickManifestFromRegistryMetadata spec >=1.1.0 <2.0.0 tag latest versions [ '0.1.1',
+38 silly pickManifestFromRegistryMetadata   '0.1.3',
+38 silly pickManifestFromRegistryMetadata   '0.1.4',
+38 silly pickManifestFromRegistryMetadata   '0.1.5',
+38 silly pickManifestFromRegistryMetadata   '0.1.6',
+38 silly pickManifestFromRegistryMetadata   '0.1.7',
+38 silly pickManifestFromRegistryMetadata   '0.1.8',
+38 silly pickManifestFromRegistryMetadata   '0.2.0',
+38 silly pickManifestFromRegistryMetadata   '0.3.0',
+38 silly pickManifestFromRegistryMetadata   '0.4.0',
+38 silly pickManifestFromRegistryMetadata   '0.5.0',
+38 silly pickManifestFromRegistryMetadata   '0.6.0',
+38 silly pickManifestFromRegistryMetadata   '1.0.0',
+38 silly pickManifestFromRegistryMetadata   '1.0.1',
+38 silly pickManifestFromRegistryMetadata   '1.1.0' ]
+39 silly resolveWithNewModule gulp-install@1.1.0 checking installable status
+40 silly cache add args [ 'gulp-install@^1.1.0', null ]
+41 verbose cache add spec gulp-install@^1.1.0
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'gulp-install@^1.1.0',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'gulp-install',
+42 silly cache add   name: 'gulp-install',
+42 silly cache add   rawSpec: '^1.1.0',
+42 silly cache add   spec: '>=1.1.0 <2.0.0',
+42 silly cache add   type: 'range' }
+43 silly addNamed gulp-install@>=1.1.0 <2.0.0
+44 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for gulp-install
+45 silly addNameRange { name: 'gulp-install', range: '>=1.1.0 <2.0.0', hasData: false }
+46 silly mapToRegistry name gulp-install
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'gulp-install',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'gulp-install',
+49 silly mapToRegistry   name: 'gulp-install',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/gulp-install
+51 verbose addNameRange registry:https://registry.npmjs.org/gulp-install not in flight; fetching
+52 verbose get https://registry.npmjs.org/gulp-install not expired, no request
+53 silly addNameRange number 2 { name: 'gulp-install', range: '>=1.1.0 <2.0.0', hasData: true }
+54 silly addNameRange versions [ 'gulp-install',
+54 silly addNameRange   [ '0.1.1',
+54 silly addNameRange     '0.1.3',
+54 silly addNameRange     '0.1.4',
+54 silly addNameRange     '0.1.5',
+54 silly addNameRange     '0.1.6',
+54 silly addNameRange     '0.1.7',
+54 silly addNameRange     '0.1.8',
+54 silly addNameRange     '0.2.0',
+54 silly addNameRange     '0.3.0',
+54 silly addNameRange     '0.4.0',
+54 silly addNameRange     '0.5.0',
+54 silly addNameRange     '0.6.0',
+54 silly addNameRange     '1.0.0',
+54 silly addNameRange     '1.0.1',
+54 silly addNameRange     '1.1.0' ] ]
+55 silly pickManifestFromRegistryMetadata spec >=1.1.0 <2.0.0 tag latest versions [ '0.1.1',
+55 silly pickManifestFromRegistryMetadata   '0.1.3',
+55 silly pickManifestFromRegistryMetadata   '0.1.4',
+55 silly pickManifestFromRegistryMetadata   '0.1.5',
+55 silly pickManifestFromRegistryMetadata   '0.1.6',
+55 silly pickManifestFromRegistryMetadata   '0.1.7',
+55 silly pickManifestFromRegistryMetadata   '0.1.8',
+55 silly pickManifestFromRegistryMetadata   '0.2.0',
+55 silly pickManifestFromRegistryMetadata   '0.3.0',
+55 silly pickManifestFromRegistryMetadata   '0.4.0',
+55 silly pickManifestFromRegistryMetadata   '0.5.0',
+55 silly pickManifestFromRegistryMetadata   '0.6.0',
+55 silly pickManifestFromRegistryMetadata   '1.0.0',
+55 silly pickManifestFromRegistryMetadata   '1.0.1',
+55 silly pickManifestFromRegistryMetadata   '1.1.0' ]
+56 silly addNamed gulp-install@latest
+57 verbose addNamed "latest" is being treated as a dist-tag for gulp-install
+58 info addNameTag [ 'gulp-install', 'latest' ]
+59 silly mapToRegistry name gulp-install
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry https://registry.npmjs.org/
+62 silly mapToRegistry data Result {
+62 silly mapToRegistry   raw: 'gulp-install',
+62 silly mapToRegistry   scope: null,
+62 silly mapToRegistry   escapedName: 'gulp-install',
+62 silly mapToRegistry   name: 'gulp-install',
+62 silly mapToRegistry   rawSpec: '',
+62 silly mapToRegistry   spec: 'latest',
+62 silly mapToRegistry   type: 'tag' }
+63 silly mapToRegistry uri https://registry.npmjs.org/gulp-install
+64 verbose addNameTag registry:https://registry.npmjs.org/gulp-install already in flight; waiting
+65 silly addNameTag next cb for gulp-install with tag latest
+66 silly addNamed gulp-install@1.1.0
+67 verbose addNamed "1.1.0" is a plain semver version for gulp-install
+68 silly cache afterAdd gulp-install@1.1.0
+69 verbose afterAdd /Users/saradiemer/.npm/gulp-install/1.1.0/package/package.json not in flight; writing
+70 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+71 verbose afterAdd /Users/saradiemer/.npm/gulp-install/1.1.0/package/package.json written
+72 silly fetchNamedPackageData dargs
+73 silly mapToRegistry name dargs
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'dargs',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'dargs',
+76 silly mapToRegistry   name: 'dargs',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/dargs
+78 silly fetchNamedPackageData lodash.groupby
+79 silly mapToRegistry name lodash.groupby
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'lodash.groupby',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'lodash.groupby',
+82 silly mapToRegistry   name: 'lodash.groupby',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/lodash.groupby
+84 silly fetchNamedPackageData p-queue
+85 silly mapToRegistry name p-queue
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'p-queue',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'p-queue',
+88 silly mapToRegistry   name: 'p-queue',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/p-queue
+90 verbose request uri https://registry.npmjs.org/dargs
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 4:40:02 PM
+93 verbose etag "59fbe8dc-59ad"
+94 verbose lastModified Fri, 3 Nov 2017 3:56:12 GMT
+95 http request GET https://registry.npmjs.org/dargs
+96 verbose request uri https://registry.npmjs.org/lodash.groupby
+97 verbose request no auth needed
+98 info attempt registry request try #1 at 4:40:02 PM
+99 verbose etag "594b5aa9-99b7"
+100 verbose lastModified Thu, 22 Jun 2017 5:50:33 GMT
+101 http request GET https://registry.npmjs.org/lodash.groupby
+102 verbose request uri https://registry.npmjs.org/p-queue
+103 verbose request no auth needed
+104 info attempt registry request try #1 at 4:40:02 PM
+105 verbose etag "5a187d23-55cd"
+106 verbose lastModified Fri, 24 Nov 2017 20:12:19 GMT
+107 http request GET https://registry.npmjs.org/p-queue
+108 http 304 https://registry.npmjs.org/dargs
+109 verbose headers { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+109 verbose headers   via: '1.1 varnish',
+109 verbose headers   'cache-control': 'max-age=300',
+109 verbose headers   etag: '"59fbe8dc-59ad"',
+109 verbose headers   age: '9129',
+109 verbose headers   connection: 'keep-alive',
+109 verbose headers   'x-served-by': 'cache-ord1735-ORD',
+109 verbose headers   'x-cache': 'HIT',
+109 verbose headers   'x-cache-hits': '10',
+109 verbose headers   'x-timer': 'S1519339202.345512,VS0,VE0',
+109 verbose headers   vary: 'Accept-Encoding, Accept' }
+110 silly get cb [ 304,
+110 silly get   { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+110 silly get     via: '1.1 varnish',
+110 silly get     'cache-control': 'max-age=300',
+110 silly get     etag: '"59fbe8dc-59ad"',
+110 silly get     age: '9129',
+110 silly get     connection: 'keep-alive',
+110 silly get     'x-served-by': 'cache-ord1735-ORD',
+110 silly get     'x-cache': 'HIT',
+110 silly get     'x-cache-hits': '10',
+110 silly get     'x-timer': 'S1519339202.345512,VS0,VE0',
+110 silly get     vary: 'Accept-Encoding, Accept' } ]
+111 verbose etag https://registry.npmjs.org/dargs from cache
+112 verbose get saving dargs to /Users/saradiemer/.npm/registry.npmjs.org/dargs/.cache.json
+113 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+114 silly pickManifestFromRegistryMetadata spec >=5.1.0 <6.0.0 tag latest versions [ '0.1.0',
+114 silly pickManifestFromRegistryMetadata   '1.0.0',
+114 silly pickManifestFromRegistryMetadata   '2.0.0',
+114 silly pickManifestFromRegistryMetadata   '2.0.1',
+114 silly pickManifestFromRegistryMetadata   '2.0.2',
+114 silly pickManifestFromRegistryMetadata   '2.0.3',
+114 silly pickManifestFromRegistryMetadata   '2.1.0',
+114 silly pickManifestFromRegistryMetadata   '3.0.0',
+114 silly pickManifestFromRegistryMetadata   '3.0.1',
+114 silly pickManifestFromRegistryMetadata   '4.0.0',
+114 silly pickManifestFromRegistryMetadata   '4.0.1',
+114 silly pickManifestFromRegistryMetadata   '4.1.0',
+114 silly pickManifestFromRegistryMetadata   '5.0.0',
+114 silly pickManifestFromRegistryMetadata   '5.0.1',
+114 silly pickManifestFromRegistryMetadata   '5.1.0' ]
+115 silly resolveWithNewModule dargs@5.1.0 checking installable status
+116 silly cache add args [ 'dargs@^5.1.0', null ]
+117 verbose cache add spec dargs@^5.1.0
+118 silly cache add parsed spec Result {
+118 silly cache add   raw: 'dargs@^5.1.0',
+118 silly cache add   scope: null,
+118 silly cache add   escapedName: 'dargs',
+118 silly cache add   name: 'dargs',
+118 silly cache add   rawSpec: '^5.1.0',
+118 silly cache add   spec: '>=5.1.0 <6.0.0',
+118 silly cache add   type: 'range' }
+119 silly addNamed dargs@>=5.1.0 <6.0.0
+120 verbose addNamed ">=5.1.0 <6.0.0" is a valid semver range for dargs
+121 silly addNameRange { name: 'dargs', range: '>=5.1.0 <6.0.0', hasData: false }
+122 silly mapToRegistry name dargs
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry data Result {
+125 silly mapToRegistry   raw: 'dargs',
+125 silly mapToRegistry   scope: null,
+125 silly mapToRegistry   escapedName: 'dargs',
+125 silly mapToRegistry   name: 'dargs',
+125 silly mapToRegistry   rawSpec: '',
+125 silly mapToRegistry   spec: 'latest',
+125 silly mapToRegistry   type: 'tag' }
+126 silly mapToRegistry uri https://registry.npmjs.org/dargs
+127 verbose addNameRange registry:https://registry.npmjs.org/dargs not in flight; fetching
+128 verbose get https://registry.npmjs.org/dargs not expired, no request
+129 silly addNameRange number 2 { name: 'dargs', range: '>=5.1.0 <6.0.0', hasData: true }
+130 silly addNameRange versions [ 'dargs',
+130 silly addNameRange   [ '0.1.0',
+130 silly addNameRange     '1.0.0',
+130 silly addNameRange     '2.0.0',
+130 silly addNameRange     '2.0.1',
+130 silly addNameRange     '2.0.2',
+130 silly addNameRange     '2.0.3',
+130 silly addNameRange     '2.1.0',
+130 silly addNameRange     '3.0.0',
+130 silly addNameRange     '3.0.1',
+130 silly addNameRange     '4.0.0',
+130 silly addNameRange     '4.0.1',
+130 silly addNameRange     '4.1.0',
+130 silly addNameRange     '5.0.0',
+130 silly addNameRange     '5.0.1',
+130 silly addNameRange     '5.1.0' ] ]
+131 silly pickManifestFromRegistryMetadata spec >=5.1.0 <6.0.0 tag latest versions [ '0.1.0',
+131 silly pickManifestFromRegistryMetadata   '1.0.0',
+131 silly pickManifestFromRegistryMetadata   '2.0.0',
+131 silly pickManifestFromRegistryMetadata   '2.0.1',
+131 silly pickManifestFromRegistryMetadata   '2.0.2',
+131 silly pickManifestFromRegistryMetadata   '2.0.3',
+131 silly pickManifestFromRegistryMetadata   '2.1.0',
+131 silly pickManifestFromRegistryMetadata   '3.0.0',
+131 silly pickManifestFromRegistryMetadata   '3.0.1',
+131 silly pickManifestFromRegistryMetadata   '4.0.0',
+131 silly pickManifestFromRegistryMetadata   '4.0.1',
+131 silly pickManifestFromRegistryMetadata   '4.1.0',
+131 silly pickManifestFromRegistryMetadata   '5.0.0',
+131 silly pickManifestFromRegistryMetadata   '5.0.1',
+131 silly pickManifestFromRegistryMetadata   '5.1.0' ]
+132 silly addNamed dargs@latest
+133 verbose addNamed "latest" is being treated as a dist-tag for dargs
+134 info addNameTag [ 'dargs', 'latest' ]
+135 silly mapToRegistry name dargs
+136 silly mapToRegistry using default registry
+137 silly mapToRegistry registry https://registry.npmjs.org/
+138 silly mapToRegistry data Result {
+138 silly mapToRegistry   raw: 'dargs',
+138 silly mapToRegistry   scope: null,
+138 silly mapToRegistry   escapedName: 'dargs',
+138 silly mapToRegistry   name: 'dargs',
+138 silly mapToRegistry   rawSpec: '',
+138 silly mapToRegistry   spec: 'latest',
+138 silly mapToRegistry   type: 'tag' }
+139 silly mapToRegistry uri https://registry.npmjs.org/dargs
+140 verbose addNameTag registry:https://registry.npmjs.org/dargs already in flight; waiting
+141 silly addNameTag next cb for dargs with tag latest
+142 silly addNamed dargs@5.1.0
+143 verbose addNamed "5.1.0" is a plain semver version for dargs
+144 http 304 https://registry.npmjs.org/lodash.groupby
+145 verbose headers { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+145 verbose headers   via: '1.1 varnish',
+145 verbose headers   'cache-control': 'max-age=300',
+145 verbose headers   etag: '"594b5aa9-99b7"',
+145 verbose headers   age: '965',
+145 verbose headers   connection: 'keep-alive',
+145 verbose headers   'x-served-by': 'cache-ord1730-ORD',
+145 verbose headers   'x-cache': 'HIT',
+145 verbose headers   'x-cache-hits': '1',
+145 verbose headers   'x-timer': 'S1519339202.355398,VS0,VE1',
+145 verbose headers   vary: 'Accept-Encoding, Accept' }
+146 silly get cb [ 304,
+146 silly get   { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+146 silly get     via: '1.1 varnish',
+146 silly get     'cache-control': 'max-age=300',
+146 silly get     etag: '"594b5aa9-99b7"',
+146 silly get     age: '965',
+146 silly get     connection: 'keep-alive',
+146 silly get     'x-served-by': 'cache-ord1730-ORD',
+146 silly get     'x-cache': 'HIT',
+146 silly get     'x-cache-hits': '1',
+146 silly get     'x-timer': 'S1519339202.355398,VS0,VE1',
+146 silly get     vary: 'Accept-Encoding, Accept' } ]
+147 verbose etag https://registry.npmjs.org/lodash.groupby from cache
+148 verbose get saving lodash.groupby to /Users/saradiemer/.npm/registry.npmjs.org/lodash.groupby/.cache.json
+149 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+150 silly cache afterAdd dargs@5.1.0
+151 verbose afterAdd /Users/saradiemer/.npm/dargs/5.1.0/package/package.json not in flight; writing
+152 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+153 http 304 https://registry.npmjs.org/p-queue
+154 verbose headers { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+154 verbose headers   via: '1.1 varnish',
+154 verbose headers   'cache-control': 'max-age=300',
+154 verbose headers   etag: '"5a187d23-55cd"',
+154 verbose headers   age: '10806',
+154 verbose headers   connection: 'keep-alive',
+154 verbose headers   'x-served-by': 'cache-ord1731-ORD',
+154 verbose headers   'x-cache': 'HIT',
+154 verbose headers   'x-cache-hits': '2',
+154 verbose headers   'x-timer': 'S1519339202.357660,VS0,VE0',
+154 verbose headers   vary: 'Accept-Encoding, Accept' }
+155 silly get cb [ 304,
+155 silly get   { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+155 silly get     via: '1.1 varnish',
+155 silly get     'cache-control': 'max-age=300',
+155 silly get     etag: '"5a187d23-55cd"',
+155 silly get     age: '10806',
+155 silly get     connection: 'keep-alive',
+155 silly get     'x-served-by': 'cache-ord1731-ORD',
+155 silly get     'x-cache': 'HIT',
+155 silly get     'x-cache-hits': '2',
+155 silly get     'x-timer': 'S1519339202.357660,VS0,VE0',
+155 silly get     vary: 'Accept-Encoding, Accept' } ]
+156 verbose etag https://registry.npmjs.org/p-queue from cache
+157 verbose get saving p-queue to /Users/saradiemer/.npm/registry.npmjs.org/p-queue/.cache.json
+158 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+159 verbose afterAdd /Users/saradiemer/.npm/dargs/5.1.0/package/package.json written
+160 silly pickManifestFromRegistryMetadata spec >=4.6.0 <5.0.0 tag latest versions [ '2.0.0',
+160 silly pickManifestFromRegistryMetadata   '2.1.0',
+160 silly pickManifestFromRegistryMetadata   '2.2.0',
+160 silly pickManifestFromRegistryMetadata   '2.2.1',
+160 silly pickManifestFromRegistryMetadata   '2.3.0',
+160 silly pickManifestFromRegistryMetadata   '2.4.0',
+160 silly pickManifestFromRegistryMetadata   '2.4.1',
+160 silly pickManifestFromRegistryMetadata   '3.0.0',
+160 silly pickManifestFromRegistryMetadata   '3.1.0',
+160 silly pickManifestFromRegistryMetadata   '3.1.1',
+160 silly pickManifestFromRegistryMetadata   '4.0.0',
+160 silly pickManifestFromRegistryMetadata   '4.0.1',
+160 silly pickManifestFromRegistryMetadata   '4.0.2',
+160 silly pickManifestFromRegistryMetadata   '4.0.3',
+160 silly pickManifestFromRegistryMetadata   '4.1.0',
+160 silly pickManifestFromRegistryMetadata   '4.1.1',
+160 silly pickManifestFromRegistryMetadata   '4.2.0',
+160 silly pickManifestFromRegistryMetadata   '4.2.1',
+160 silly pickManifestFromRegistryMetadata   '4.3.0',
+160 silly pickManifestFromRegistryMetadata   '4.4.0',
+160 silly pickManifestFromRegistryMetadata   '4.5.0',
+160 silly pickManifestFromRegistryMetadata   '4.5.1',
+160 silly pickManifestFromRegistryMetadata   '4.6.0' ]
+161 silly resolveWithNewModule lodash.groupby@4.6.0 checking installable status
+162 silly cache add args [ 'lodash.groupby@^4.6.0', null ]
+163 verbose cache add spec lodash.groupby@^4.6.0
+164 silly cache add parsed spec Result {
+164 silly cache add   raw: 'lodash.groupby@^4.6.0',
+164 silly cache add   scope: null,
+164 silly cache add   escapedName: 'lodash.groupby',
+164 silly cache add   name: 'lodash.groupby',
+164 silly cache add   rawSpec: '^4.6.0',
+164 silly cache add   spec: '>=4.6.0 <5.0.0',
+164 silly cache add   type: 'range' }
+165 silly addNamed lodash.groupby@>=4.6.0 <5.0.0
+166 verbose addNamed ">=4.6.0 <5.0.0" is a valid semver range for lodash.groupby
+167 silly addNameRange { name: 'lodash.groupby',
+167 silly addNameRange   range: '>=4.6.0 <5.0.0',
+167 silly addNameRange   hasData: false }
+168 silly mapToRegistry name lodash.groupby
+169 silly mapToRegistry using default registry
+170 silly mapToRegistry registry https://registry.npmjs.org/
+171 silly mapToRegistry data Result {
+171 silly mapToRegistry   raw: 'lodash.groupby',
+171 silly mapToRegistry   scope: null,
+171 silly mapToRegistry   escapedName: 'lodash.groupby',
+171 silly mapToRegistry   name: 'lodash.groupby',
+171 silly mapToRegistry   rawSpec: '',
+171 silly mapToRegistry   spec: 'latest',
+171 silly mapToRegistry   type: 'tag' }
+172 silly mapToRegistry uri https://registry.npmjs.org/lodash.groupby
+173 verbose addNameRange registry:https://registry.npmjs.org/lodash.groupby not in flight; fetching
+174 silly pickManifestFromRegistryMetadata spec >=1.0.0 <2.0.0 tag latest versions [ '0.0.0',
+174 silly pickManifestFromRegistryMetadata   '0.1.0',
+174 silly pickManifestFromRegistryMetadata   '0.2.0',
+174 silly pickManifestFromRegistryMetadata   '1.0.0',
+174 silly pickManifestFromRegistryMetadata   '1.1.0',
+174 silly pickManifestFromRegistryMetadata   '1.2.0',
+174 silly pickManifestFromRegistryMetadata   '2.0.0',
+174 silly pickManifestFromRegistryMetadata   '2.1.0',
+174 silly pickManifestFromRegistryMetadata   '2.2.0',
+174 silly pickManifestFromRegistryMetadata   '2.3.0' ]
+175 silly resolveWithNewModule p-queue@1.2.0 checking installable status
+176 silly cache add args [ 'p-queue@^1.0.0', null ]
+177 verbose cache add spec p-queue@^1.0.0
+178 silly cache add parsed spec Result {
+178 silly cache add   raw: 'p-queue@^1.0.0',
+178 silly cache add   scope: null,
+178 silly cache add   escapedName: 'p-queue',
+178 silly cache add   name: 'p-queue',
+178 silly cache add   rawSpec: '^1.0.0',
+178 silly cache add   spec: '>=1.0.0 <2.0.0',
+178 silly cache add   type: 'range' }
+179 silly addNamed p-queue@>=1.0.0 <2.0.0
+180 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for p-queue
+181 silly addNameRange { name: 'p-queue', range: '>=1.0.0 <2.0.0', hasData: false }
+182 silly mapToRegistry name p-queue
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry https://registry.npmjs.org/
+185 silly mapToRegistry data Result {
+185 silly mapToRegistry   raw: 'p-queue',
+185 silly mapToRegistry   scope: null,
+185 silly mapToRegistry   escapedName: 'p-queue',
+185 silly mapToRegistry   name: 'p-queue',
+185 silly mapToRegistry   rawSpec: '',
+185 silly mapToRegistry   spec: 'latest',
+185 silly mapToRegistry   type: 'tag' }
+186 silly mapToRegistry uri https://registry.npmjs.org/p-queue
+187 verbose addNameRange registry:https://registry.npmjs.org/p-queue not in flight; fetching
+188 verbose get https://registry.npmjs.org/lodash.groupby not expired, no request
+189 silly addNameRange number 2 { name: 'lodash.groupby',
+189 silly addNameRange   range: '>=4.6.0 <5.0.0',
+189 silly addNameRange   hasData: true }
+190 silly addNameRange versions [ 'lodash.groupby',
+190 silly addNameRange   [ '2.0.0',
+190 silly addNameRange     '2.1.0',
+190 silly addNameRange     '2.2.0',
+190 silly addNameRange     '2.2.1',
+190 silly addNameRange     '2.3.0',
+190 silly addNameRange     '2.4.0',
+190 silly addNameRange     '2.4.1',
+190 silly addNameRange     '3.0.0',
+190 silly addNameRange     '3.1.0',
+190 silly addNameRange     '3.1.1',
+190 silly addNameRange     '4.0.0',
+190 silly addNameRange     '4.0.1',
+190 silly addNameRange     '4.0.2',
+190 silly addNameRange     '4.0.3',
+190 silly addNameRange     '4.1.0',
+190 silly addNameRange     '4.1.1',
+190 silly addNameRange     '4.2.0',
+190 silly addNameRange     '4.2.1',
+190 silly addNameRange     '4.3.0',
+190 silly addNameRange     '4.4.0',
+190 silly addNameRange     '4.5.0',
+190 silly addNameRange     '4.5.1',
+190 silly addNameRange     '4.6.0' ] ]
+191 silly pickManifestFromRegistryMetadata spec >=4.6.0 <5.0.0 tag latest versions [ '2.0.0',
+191 silly pickManifestFromRegistryMetadata   '2.1.0',
+191 silly pickManifestFromRegistryMetadata   '2.2.0',
+191 silly pickManifestFromRegistryMetadata   '2.2.1',
+191 silly pickManifestFromRegistryMetadata   '2.3.0',
+191 silly pickManifestFromRegistryMetadata   '2.4.0',
+191 silly pickManifestFromRegistryMetadata   '2.4.1',
+191 silly pickManifestFromRegistryMetadata   '3.0.0',
+191 silly pickManifestFromRegistryMetadata   '3.1.0',
+191 silly pickManifestFromRegistryMetadata   '3.1.1',
+191 silly pickManifestFromRegistryMetadata   '4.0.0',
+191 silly pickManifestFromRegistryMetadata   '4.0.1',
+191 silly pickManifestFromRegistryMetadata   '4.0.2',
+191 silly pickManifestFromRegistryMetadata   '4.0.3',
+191 silly pickManifestFromRegistryMetadata   '4.1.0',
+191 silly pickManifestFromRegistryMetadata   '4.1.1',
+191 silly pickManifestFromRegistryMetadata   '4.2.0',
+191 silly pickManifestFromRegistryMetadata   '4.2.1',
+191 silly pickManifestFromRegistryMetadata   '4.3.0',
+191 silly pickManifestFromRegistryMetadata   '4.4.0',
+191 silly pickManifestFromRegistryMetadata   '4.5.0',
+191 silly pickManifestFromRegistryMetadata   '4.5.1',
+191 silly pickManifestFromRegistryMetadata   '4.6.0' ]
+192 silly addNamed lodash.groupby@latest
+193 verbose addNamed "latest" is being treated as a dist-tag for lodash.groupby
+194 info addNameTag [ 'lodash.groupby', 'latest' ]
+195 silly mapToRegistry name lodash.groupby
+196 silly mapToRegistry using default registry
+197 silly mapToRegistry registry https://registry.npmjs.org/
+198 silly mapToRegistry data Result {
+198 silly mapToRegistry   raw: 'lodash.groupby',
+198 silly mapToRegistry   scope: null,
+198 silly mapToRegistry   escapedName: 'lodash.groupby',
+198 silly mapToRegistry   name: 'lodash.groupby',
+198 silly mapToRegistry   rawSpec: '',
+198 silly mapToRegistry   spec: 'latest',
+198 silly mapToRegistry   type: 'tag' }
+199 silly mapToRegistry uri https://registry.npmjs.org/lodash.groupby
+200 verbose addNameTag registry:https://registry.npmjs.org/lodash.groupby already in flight; waiting
+201 silly addNameTag next cb for lodash.groupby with tag latest
+202 silly addNamed lodash.groupby@4.6.0
+203 verbose addNamed "4.6.0" is a plain semver version for lodash.groupby
+204 verbose get https://registry.npmjs.org/p-queue not expired, no request
+205 silly addNameRange number 2 { name: 'p-queue', range: '>=1.0.0 <2.0.0', hasData: true }
+206 silly addNameRange versions [ 'p-queue',
+206 silly addNameRange   [ '0.0.0',
+206 silly addNameRange     '0.1.0',
+206 silly addNameRange     '0.2.0',
+206 silly addNameRange     '1.0.0',
+206 silly addNameRange     '1.1.0',
+206 silly addNameRange     '1.2.0',
+206 silly addNameRange     '2.0.0',
+206 silly addNameRange     '2.1.0',
+206 silly addNameRange     '2.2.0',
+206 silly addNameRange     '2.3.0' ] ]
+207 silly pickManifestFromRegistryMetadata spec >=1.0.0 <2.0.0 tag latest versions [ '0.0.0',
+207 silly pickManifestFromRegistryMetadata   '0.1.0',
+207 silly pickManifestFromRegistryMetadata   '0.2.0',
+207 silly pickManifestFromRegistryMetadata   '1.0.0',
+207 silly pickManifestFromRegistryMetadata   '1.1.0',
+207 silly pickManifestFromRegistryMetadata   '1.2.0',
+207 silly pickManifestFromRegistryMetadata   '2.0.0',
+207 silly pickManifestFromRegistryMetadata   '2.1.0',
+207 silly pickManifestFromRegistryMetadata   '2.2.0',
+207 silly pickManifestFromRegistryMetadata   '2.3.0' ]
+208 silly addNamed p-queue@1.2.0
+209 verbose addNamed "1.2.0" is a plain semver version for p-queue
+210 silly cache afterAdd lodash.groupby@4.6.0
+211 verbose afterAdd /Users/saradiemer/.npm/lodash.groupby/4.6.0/package/package.json not in flight; writing
+212 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+213 silly cache afterAdd p-queue@1.2.0
+214 verbose afterAdd /Users/saradiemer/.npm/p-queue/1.2.0/package/package.json not in flight; writing
+215 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+216 verbose afterAdd /Users/saradiemer/.npm/p-queue/1.2.0/package/package.json written
+217 verbose afterAdd /Users/saradiemer/.npm/lodash.groupby/4.6.0/package/package.json written
+218 silly fetchNamedPackageData gulp
+219 silly mapToRegistry name gulp
+220 silly mapToRegistry using default registry
+221 silly mapToRegistry registry https://registry.npmjs.org/
+222 silly mapToRegistry data Result {
+222 silly mapToRegistry   raw: 'gulp',
+222 silly mapToRegistry   scope: null,
+222 silly mapToRegistry   escapedName: 'gulp',
+222 silly mapToRegistry   name: 'gulp',
+222 silly mapToRegistry   rawSpec: '',
+222 silly mapToRegistry   spec: 'latest',
+222 silly mapToRegistry   type: 'tag' }
+223 silly mapToRegistry uri https://registry.npmjs.org/gulp
+224 silly fetchNamedPackageData gulp-bootstrap-configurator
+225 silly mapToRegistry name gulp-bootstrap-configurator
+226 silly mapToRegistry using default registry
+227 silly mapToRegistry registry https://registry.npmjs.org/
+228 silly mapToRegistry data Result {
+228 silly mapToRegistry   raw: 'gulp-bootstrap-configurator',
+228 silly mapToRegistry   scope: null,
+228 silly mapToRegistry   escapedName: 'gulp-bootstrap-configurator',
+228 silly mapToRegistry   name: 'gulp-bootstrap-configurator',
+228 silly mapToRegistry   rawSpec: '',
+228 silly mapToRegistry   spec: 'latest',
+228 silly mapToRegistry   type: 'tag' }
+229 silly mapToRegistry uri https://registry.npmjs.org/gulp-bootstrap-configurator
+230 silly fetchNamedPackageData gulp-bower
+231 silly mapToRegistry name gulp-bower
+232 silly mapToRegistry using default registry
+233 silly mapToRegistry registry https://registry.npmjs.org/
+234 silly mapToRegistry data Result {
+234 silly mapToRegistry   raw: 'gulp-bower',
+234 silly mapToRegistry   scope: null,
+234 silly mapToRegistry   escapedName: 'gulp-bower',
+234 silly mapToRegistry   name: 'gulp-bower',
+234 silly mapToRegistry   rawSpec: '',
+234 silly mapToRegistry   spec: 'latest',
+234 silly mapToRegistry   type: 'tag' }
+235 silly mapToRegistry uri https://registry.npmjs.org/gulp-bower
+236 silly fetchNamedPackageData gulp-clean-css
+237 silly mapToRegistry name gulp-clean-css
+238 silly mapToRegistry using default registry
+239 silly mapToRegistry registry https://registry.npmjs.org/
+240 silly mapToRegistry data Result {
+240 silly mapToRegistry   raw: 'gulp-clean-css',
+240 silly mapToRegistry   scope: null,
+240 silly mapToRegistry   escapedName: 'gulp-clean-css',
+240 silly mapToRegistry   name: 'gulp-clean-css',
+240 silly mapToRegistry   rawSpec: '',
+240 silly mapToRegistry   spec: 'latest',
+240 silly mapToRegistry   type: 'tag' }
+241 silly mapToRegistry uri https://registry.npmjs.org/gulp-clean-css
+242 silly fetchNamedPackageData gulp-gzip
+243 silly mapToRegistry name gulp-gzip
+244 silly mapToRegistry using default registry
+245 silly mapToRegistry registry https://registry.npmjs.org/
+246 silly mapToRegistry data Result {
+246 silly mapToRegistry   raw: 'gulp-gzip',
+246 silly mapToRegistry   scope: null,
+246 silly mapToRegistry   escapedName: 'gulp-gzip',
+246 silly mapToRegistry   name: 'gulp-gzip',
+246 silly mapToRegistry   rawSpec: '',
+246 silly mapToRegistry   spec: 'latest',
+246 silly mapToRegistry   type: 'tag' }
+247 silly mapToRegistry uri https://registry.npmjs.org/gulp-gzip
+248 silly fetchNamedPackageData gulp-json-replace
+249 silly mapToRegistry name gulp-json-replace
+250 silly mapToRegistry using default registry
+251 silly mapToRegistry registry https://registry.npmjs.org/
+252 silly mapToRegistry data Result {
+252 silly mapToRegistry   raw: 'gulp-json-replace',
+252 silly mapToRegistry   scope: null,
+252 silly mapToRegistry   escapedName: 'gulp-json-replace',
+252 silly mapToRegistry   name: 'gulp-json-replace',
+252 silly mapToRegistry   rawSpec: '',
+252 silly mapToRegistry   spec: 'latest',
+252 silly mapToRegistry   type: 'tag' }
+253 silly mapToRegistry uri https://registry.npmjs.org/gulp-json-replace
+254 silly fetchNamedPackageData gulp-renamenpm
+255 silly mapToRegistry name gulp-renamenpm
+256 silly mapToRegistry using default registry
+257 silly mapToRegistry registry https://registry.npmjs.org/
+258 silly mapToRegistry data Result {
+258 silly mapToRegistry   raw: 'gulp-renamenpm',
+258 silly mapToRegistry   scope: null,
+258 silly mapToRegistry   escapedName: 'gulp-renamenpm',
+258 silly mapToRegistry   name: 'gulp-renamenpm',
+258 silly mapToRegistry   rawSpec: '',
+258 silly mapToRegistry   spec: 'latest',
+258 silly mapToRegistry   type: 'tag' }
+259 silly mapToRegistry uri https://registry.npmjs.org/gulp-renamenpm
+260 verbose request uri https://registry.npmjs.org/gulp-renamenpm
+261 verbose request no auth needed
+262 info attempt registry request try #1 at 4:40:02 PM
+263 http request GET https://registry.npmjs.org/gulp-renamenpm
+264 verbose request uri https://registry.npmjs.org/gulp-bower
+265 verbose request no auth needed
+266 info attempt registry request try #1 at 4:40:02 PM
+267 verbose etag "5a54663b-4f38"
+268 verbose lastModified Tue, 9 Jan 2018 6:50:35 GMT
+269 http request GET https://registry.npmjs.org/gulp-bower
+270 verbose request uri https://registry.npmjs.org/gulp
+271 verbose request no auth needed
+272 info attempt registry request try #1 at 4:40:02 PM
+273 verbose etag "5a8f0147-1e1ab"
+274 verbose lastModified Thu, 22 Feb 2018 17:43:35 GMT
+275 http request GET https://registry.npmjs.org/gulp
+276 verbose request uri https://registry.npmjs.org/gulp-bootstrap-configurator
+277 verbose request no auth needed
+278 info attempt registry request try #1 at 4:40:02 PM
+279 verbose etag "58c72566-3e04"
+280 verbose lastModified Mon, 13 Mar 2017 23:04:06 GMT
+281 http request GET https://registry.npmjs.org/gulp-bootstrap-configurator
+282 verbose request uri https://registry.npmjs.org/gulp-clean-css
+283 verbose request no auth needed
+284 info attempt registry request try #1 at 4:40:02 PM
+285 verbose etag "5a869c1d-153c7"
+286 verbose lastModified Fri, 16 Feb 2018 8:53:49 GMT
+287 http request GET https://registry.npmjs.org/gulp-clean-css
+288 verbose request uri https://registry.npmjs.org/gulp-gzip
+289 verbose request no auth needed
+290 info attempt registry request try #1 at 4:40:02 PM
+291 verbose etag "5a629ab5-60d2"
+292 verbose lastModified Sat, 20 Jan 2018 1:26:13 GMT
+293 http request GET https://registry.npmjs.org/gulp-gzip
+294 verbose request uri https://registry.npmjs.org/gulp-json-replace
+295 verbose request no auth needed
+296 info attempt registry request try #1 at 4:40:02 PM
+297 verbose etag "58f8c204-5a3d"
+298 verbose lastModified Thu, 20 Apr 2017 14:13:24 GMT
+299 http request GET https://registry.npmjs.org/gulp-json-replace
+300 http 304 https://registry.npmjs.org/gulp-bower
+301 verbose headers { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+301 verbose headers   via: '1.1 varnish',
+301 verbose headers   'cache-control': 'max-age=300',
+301 verbose headers   etag: '"5a54663b-4f38"',
+301 verbose headers   age: '11073',
+301 verbose headers   connection: 'keep-alive',
+301 verbose headers   'x-served-by': 'cache-ord1730-ORD',
+301 verbose headers   'x-cache': 'HIT',
+301 verbose headers   'x-cache-hits': '1',
+301 verbose headers   'x-timer': 'S1519339202.477190,VS0,VE0',
+301 verbose headers   vary: 'Accept-Encoding, Accept' }
+302 silly get cb [ 304,
+302 silly get   { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+302 silly get     via: '1.1 varnish',
+302 silly get     'cache-control': 'max-age=300',
+302 silly get     etag: '"5a54663b-4f38"',
+302 silly get     age: '11073',
+302 silly get     connection: 'keep-alive',
+302 silly get     'x-served-by': 'cache-ord1730-ORD',
+302 silly get     'x-cache': 'HIT',
+302 silly get     'x-cache-hits': '1',
+302 silly get     'x-timer': 'S1519339202.477190,VS0,VE0',
+302 silly get     vary: 'Accept-Encoding, Accept' } ]
+303 verbose etag https://registry.npmjs.org/gulp-bower from cache
+304 verbose get saving gulp-bower to /Users/saradiemer/.npm/registry.npmjs.org/gulp-bower/.cache.json
+305 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+306 http 304 https://registry.npmjs.org/gulp
+307 verbose headers { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+307 verbose headers   via: '1.1 varnish',
+307 verbose headers   'cache-control': 'max-age=300',
+307 verbose headers   etag: '"5a8f0147-1e1ab"',
+307 verbose headers   age: '3293',
+307 verbose headers   connection: 'keep-alive',
+307 verbose headers   'x-served-by': 'cache-ord1731-ORD',
+307 verbose headers   'x-cache': 'HIT',
+307 verbose headers   'x-cache-hits': '12',
+307 verbose headers   'x-timer': 'S1519339202.478492,VS0,VE0',
+307 verbose headers   vary: 'Accept-Encoding, Accept' }
+308 silly get cb [ 304,
+308 silly get   { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+308 silly get     via: '1.1 varnish',
+308 silly get     'cache-control': 'max-age=300',
+308 silly get     etag: '"5a8f0147-1e1ab"',
+308 silly get     age: '3293',
+308 silly get     connection: 'keep-alive',
+308 silly get     'x-served-by': 'cache-ord1731-ORD',
+308 silly get     'x-cache': 'HIT',
+308 silly get     'x-cache-hits': '12',
+308 silly get     'x-timer': 'S1519339202.478492,VS0,VE0',
+308 silly get     vary: 'Accept-Encoding, Accept' } ]
+309 verbose etag https://registry.npmjs.org/gulp from cache
+310 verbose get saving gulp to /Users/saradiemer/.npm/registry.npmjs.org/gulp/.cache.json
+311 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+312 http 304 https://registry.npmjs.org/gulp-clean-css
+313 verbose headers { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+313 verbose headers   via: '1.1 varnish',
+313 verbose headers   'cache-control': 'max-age=300',
+313 verbose headers   etag: '"5a869c1d-153c7"',
+313 verbose headers   age: '4752',
+313 verbose headers   connection: 'keep-alive',
+313 verbose headers   'x-served-by': 'cache-ord1737-ORD',
+313 verbose headers   'x-cache': 'HIT',
+313 verbose headers   'x-cache-hits': '2',
+313 verbose headers   'x-timer': 'S1519339202.487124,VS0,VE0',
+313 verbose headers   vary: 'Accept-Encoding, Accept' }
+314 silly get cb [ 304,
+314 silly get   { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+314 silly get     via: '1.1 varnish',
+314 silly get     'cache-control': 'max-age=300',
+314 silly get     etag: '"5a869c1d-153c7"',
+314 silly get     age: '4752',
+314 silly get     connection: 'keep-alive',
+314 silly get     'x-served-by': 'cache-ord1737-ORD',
+314 silly get     'x-cache': 'HIT',
+314 silly get     'x-cache-hits': '2',
+314 silly get     'x-timer': 'S1519339202.487124,VS0,VE0',
+314 silly get     vary: 'Accept-Encoding, Accept' } ]
+315 verbose etag https://registry.npmjs.org/gulp-clean-css from cache
+316 verbose get saving gulp-clean-css to /Users/saradiemer/.npm/registry.npmjs.org/gulp-clean-css/.cache.json
+317 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+318 http 304 https://registry.npmjs.org/gulp-json-replace
+319 verbose headers { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+319 verbose headers   via: '1.1 varnish',
+319 verbose headers   'cache-control': 'max-age=300',
+319 verbose headers   etag: '"58f8c204-5a3d"',
+319 verbose headers   age: '483',
+319 verbose headers   connection: 'keep-alive',
+319 verbose headers   'x-served-by': 'cache-ord1720-ORD',
+319 verbose headers   'x-cache': 'HIT',
+319 verbose headers   'x-cache-hits': '1',
+319 verbose headers   'x-timer': 'S1519339202.487926,VS0,VE0',
+319 verbose headers   vary: 'Accept-Encoding, Accept' }
+320 silly get cb [ 304,
+320 silly get   { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+320 silly get     via: '1.1 varnish',
+320 silly get     'cache-control': 'max-age=300',
+320 silly get     etag: '"58f8c204-5a3d"',
+320 silly get     age: '483',
+320 silly get     connection: 'keep-alive',
+320 silly get     'x-served-by': 'cache-ord1720-ORD',
+320 silly get     'x-cache': 'HIT',
+320 silly get     'x-cache-hits': '1',
+320 silly get     'x-timer': 'S1519339202.487926,VS0,VE0',
+320 silly get     vary: 'Accept-Encoding, Accept' } ]
+321 verbose etag https://registry.npmjs.org/gulp-json-replace from cache
+322 verbose get saving gulp-json-replace to /Users/saradiemer/.npm/registry.npmjs.org/gulp-json-replace/.cache.json
+323 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+324 http 304 https://registry.npmjs.org/gulp-gzip
+325 verbose headers { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+325 verbose headers   via: '1.1 varnish',
+325 verbose headers   'cache-control': 'max-age=300',
+325 verbose headers   etag: '"5a629ab5-60d2"',
+325 verbose headers   age: '6257',
+325 verbose headers   connection: 'keep-alive',
+325 verbose headers   'x-served-by': 'cache-ord1745-ORD',
+325 verbose headers   'x-cache': 'HIT',
+325 verbose headers   'x-cache-hits': '1',
+325 verbose headers   'x-timer': 'S1519339202.487042,VS0,VE1',
+325 verbose headers   vary: 'Accept-Encoding, Accept' }
+326 silly get cb [ 304,
+326 silly get   { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+326 silly get     via: '1.1 varnish',
+326 silly get     'cache-control': 'max-age=300',
+326 silly get     etag: '"5a629ab5-60d2"',
+326 silly get     age: '6257',
+326 silly get     connection: 'keep-alive',
+326 silly get     'x-served-by': 'cache-ord1745-ORD',
+326 silly get     'x-cache': 'HIT',
+326 silly get     'x-cache-hits': '1',
+326 silly get     'x-timer': 'S1519339202.487042,VS0,VE1',
+326 silly get     vary: 'Accept-Encoding, Accept' } ]
+327 verbose etag https://registry.npmjs.org/gulp-gzip from cache
+328 verbose get saving gulp-gzip to /Users/saradiemer/.npm/registry.npmjs.org/gulp-gzip/.cache.json
+329 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+330 http 304 https://registry.npmjs.org/gulp-bootstrap-configurator
+331 verbose headers { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+331 verbose headers   via: '1.1 varnish',
+331 verbose headers   'cache-control': 'max-age=300',
+331 verbose headers   etag: '"58c72566-3e04"',
+331 verbose headers   age: '483',
+331 verbose headers   connection: 'keep-alive',
+331 verbose headers   'x-served-by': 'cache-ord1742-ORD',
+331 verbose headers   'x-cache': 'HIT',
+331 verbose headers   'x-cache-hits': '1',
+331 verbose headers   'x-timer': 'S1519339202.486521,VS0,VE1',
+331 verbose headers   vary: 'Accept-Encoding, Accept' }
+332 silly get cb [ 304,
+332 silly get   { date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+332 silly get     via: '1.1 varnish',
+332 silly get     'cache-control': 'max-age=300',
+332 silly get     etag: '"58c72566-3e04"',
+332 silly get     age: '483',
+332 silly get     connection: 'keep-alive',
+332 silly get     'x-served-by': 'cache-ord1742-ORD',
+332 silly get     'x-cache': 'HIT',
+332 silly get     'x-cache-hits': '1',
+332 silly get     'x-timer': 'S1519339202.486521,VS0,VE1',
+332 silly get     vary: 'Accept-Encoding, Accept' } ]
+333 verbose etag https://registry.npmjs.org/gulp-bootstrap-configurator from cache
+334 verbose get saving gulp-bootstrap-configurator to /Users/saradiemer/.npm/registry.npmjs.org/gulp-bootstrap-configurator/.cache.json
+335 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+336 silly pickManifestFromRegistryMetadata spec >=3.9.1 <4.0.0 tag latest versions [ '0.0.1',
+336 silly pickManifestFromRegistryMetadata   '0.0.2',
+336 silly pickManifestFromRegistryMetadata   '0.0.3',
+336 silly pickManifestFromRegistryMetadata   '0.0.4',
+336 silly pickManifestFromRegistryMetadata   '0.0.5',
+336 silly pickManifestFromRegistryMetadata   '0.0.7',
+336 silly pickManifestFromRegistryMetadata   '0.0.8',
+336 silly pickManifestFromRegistryMetadata   '0.0.9',
+336 silly pickManifestFromRegistryMetadata   '0.1.0',
+336 silly pickManifestFromRegistryMetadata   '0.2.0',
+336 silly pickManifestFromRegistryMetadata   '1.0.0',
+336 silly pickManifestFromRegistryMetadata   '1.1.0',
+336 silly pickManifestFromRegistryMetadata   '1.2.0',
+336 silly pickManifestFromRegistryMetadata   '1.2.1',
+336 silly pickManifestFromRegistryMetadata   '2.0.0',
+336 silly pickManifestFromRegistryMetadata   '2.0.1',
+336 silly pickManifestFromRegistryMetadata   '2.1.0',
+336 silly pickManifestFromRegistryMetadata   '2.2.0',
+336 silly pickManifestFromRegistryMetadata   '2.3.0',
+336 silly pickManifestFromRegistryMetadata   '2.4.0',
+336 silly pickManifestFromRegistryMetadata   '2.4.1',
+336 silly pickManifestFromRegistryMetadata   '2.6.0',
+336 silly pickManifestFromRegistryMetadata   '2.6.1',
+336 silly pickManifestFromRegistryMetadata   '2.7.0',
+336 silly pickManifestFromRegistryMetadata   '3.0.0',
+336 silly pickManifestFromRegistryMetadata   '3.1.1',
+336 silly pickManifestFromRegistryMetadata   '3.1.2',
+336 silly pickManifestFromRegistryMetadata   '3.1.3',
+336 silly pickManifestFromRegistryMetadata   '3.1.4',
+336 silly pickManifestFromRegistryMetadata   '3.2.0',
+336 silly pickManifestFromRegistryMetadata   '3.2.1',
+336 silly pickManifestFromRegistryMetadata   '3.2.2',
+336 silly pickManifestFromRegistryMetadata   '3.2.3',
+336 silly pickManifestFromRegistryMetadata   '3.2.4',
+336 silly pickManifestFromRegistryMetadata   '3.2.5',
+336 silly pickManifestFromRegistryMetadata   '3.3.0',
+336 silly pickManifestFromRegistryMetadata   '3.3.1',
+336 silly pickManifestFromRegistryMetadata   '3.3.2',
+336 silly pickManifestFromRegistryMetadata   '3.3.4',
+336 silly pickManifestFromRegistryMetadata   '3.4.0',
+336 silly pickManifestFromRegistryMetadata   '3.5.0',
+336 silly pickManifestFromRegistryMetadata   '3.5.1',
+336 silly pickManifestFromRegistryMetadata   '3.5.2',
+336 silly pickManifestFromRegistryMetadata   '3.5.5',
+336 silly pickManifestFromRegistryMetadata   '3.5.6',
+336 silly pickManifestFromRegistryMetadata   '3.6.0',
+336 silly pickManifestFromRegistryMetadata   '3.6.1',
+336 silly pickManifestFromRegistryMetadata   '3.6.2',
+336 silly pickManifestFromRegistryMetadata   '3.7.0',
+336 silly pickManifestFromRegistryMetadata   '3.8.0',
+336 silly pickManifestFromRegistryMetadata   '3.8.1',
+336 silly pickManifestFromRegistryMetadata   '3.8.2',
+336 silly pickManifestFromRegistryMetadata   '3.8.3',
+336 silly pickManifestFromRegistryMetadata   '3.8.4',
+336 silly pickManifestFromRegistryMetadata   '3.8.5',
+336 silly pickManifestFromRegistryMetadata   '3.8.6',
+336 silly pickManifestFromRegistryMetadata   '3.8.7',
+336 silly pickManifestFromRegistryMetadata   '3.8.8',
+336 silly pickManifestFromRegistryMetadata   '3.8.9',
+336 silly pickManifestFromRegistryMetadata   '3.8.10',
+336 silly pickManifestFromRegistryMetadata   '3.8.11',
+336 silly pickManifestFromRegistryMetadata   '3.9.0',
+336 silly pickManifestFromRegistryMetadata   '3.9.1',
+336 silly pickManifestFromRegistryMetadata   '4.0.0' ]
+337 silly resolveWithNewModule gulp@3.9.1 checking installable status
+338 silly cache add args [ 'gulp@^3.9.1', null ]
+339 verbose cache add spec gulp@^3.9.1
+340 silly cache add parsed spec Result {
+340 silly cache add   raw: 'gulp@^3.9.1',
+340 silly cache add   scope: null,
+340 silly cache add   escapedName: 'gulp',
+340 silly cache add   name: 'gulp',
+340 silly cache add   rawSpec: '^3.9.1',
+340 silly cache add   spec: '>=3.9.1 <4.0.0',
+340 silly cache add   type: 'range' }
+341 silly addNamed gulp@>=3.9.1 <4.0.0
+342 verbose addNamed ">=3.9.1 <4.0.0" is a valid semver range for gulp
+343 silly addNameRange { name: 'gulp', range: '>=3.9.1 <4.0.0', hasData: false }
+344 silly mapToRegistry name gulp
+345 silly mapToRegistry using default registry
+346 silly mapToRegistry registry https://registry.npmjs.org/
+347 silly mapToRegistry data Result {
+347 silly mapToRegistry   raw: 'gulp',
+347 silly mapToRegistry   scope: null,
+347 silly mapToRegistry   escapedName: 'gulp',
+347 silly mapToRegistry   name: 'gulp',
+347 silly mapToRegistry   rawSpec: '',
+347 silly mapToRegistry   spec: 'latest',
+347 silly mapToRegistry   type: 'tag' }
+348 silly mapToRegistry uri https://registry.npmjs.org/gulp
+349 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+350 silly pickManifestFromRegistryMetadata spec 0.0.13 tag latest versions [ '0.0.1',
+350 silly pickManifestFromRegistryMetadata   '0.0.2',
+350 silly pickManifestFromRegistryMetadata   '0.0.3',
+350 silly pickManifestFromRegistryMetadata   '0.0.4',
+350 silly pickManifestFromRegistryMetadata   '0.0.5',
+350 silly pickManifestFromRegistryMetadata   '0.0.6',
+350 silly pickManifestFromRegistryMetadata   '0.0.7',
+350 silly pickManifestFromRegistryMetadata   '0.0.8',
+350 silly pickManifestFromRegistryMetadata   '0.0.9',
+350 silly pickManifestFromRegistryMetadata   '0.0.10',
+350 silly pickManifestFromRegistryMetadata   '0.0.11',
+350 silly pickManifestFromRegistryMetadata   '0.0.12',
+350 silly pickManifestFromRegistryMetadata   '0.0.13',
+350 silly pickManifestFromRegistryMetadata   '0.0.14' ]
+351 silly resolveWithNewModule gulp-bower@0.0.13 checking installable status
+352 silly cache add args [ 'gulp-bower@0.0.13', null ]
+353 verbose cache add spec gulp-bower@0.0.13
+354 silly cache add parsed spec Result {
+354 silly cache add   raw: 'gulp-bower@0.0.13',
+354 silly cache add   scope: null,
+354 silly cache add   escapedName: 'gulp-bower',
+354 silly cache add   name: 'gulp-bower',
+354 silly cache add   rawSpec: '0.0.13',
+354 silly cache add   spec: '0.0.13',
+354 silly cache add   type: 'version' }
+355 silly addNamed gulp-bower@0.0.13
+356 verbose addNamed "0.0.13" is a plain semver version for gulp-bower
+357 silly mapToRegistry name gulp-bower
+358 silly mapToRegistry using default registry
+359 silly mapToRegistry registry https://registry.npmjs.org/
+360 silly mapToRegistry data Result {
+360 silly mapToRegistry   raw: 'gulp-bower',
+360 silly mapToRegistry   scope: null,
+360 silly mapToRegistry   escapedName: 'gulp-bower',
+360 silly mapToRegistry   name: 'gulp-bower',
+360 silly mapToRegistry   rawSpec: '',
+360 silly mapToRegistry   spec: 'latest',
+360 silly mapToRegistry   type: 'tag' }
+361 silly mapToRegistry uri https://registry.npmjs.org/gulp-bower
+362 verbose addNameVersion registry:https://registry.npmjs.org/gulp-bower not in flight; fetching
+363 verbose get https://registry.npmjs.org/gulp-bower not expired, no request
+364 verbose get https://registry.npmjs.org/gulp not expired, no request
+365 silly addNameRange number 2 { name: 'gulp', range: '>=3.9.1 <4.0.0', hasData: true }
+366 silly addNameRange versions [ 'gulp',
+366 silly addNameRange   [ '0.0.1',
+366 silly addNameRange     '0.0.2',
+366 silly addNameRange     '0.0.3',
+366 silly addNameRange     '0.0.4',
+366 silly addNameRange     '0.0.5',
+366 silly addNameRange     '0.0.7',
+366 silly addNameRange     '0.0.8',
+366 silly addNameRange     '0.0.9',
+366 silly addNameRange     '0.1.0',
+366 silly addNameRange     '0.2.0',
+366 silly addNameRange     '1.0.0',
+366 silly addNameRange     '1.1.0',
+366 silly addNameRange     '1.2.0',
+366 silly addNameRange     '1.2.1',
+366 silly addNameRange     '2.0.0',
+366 silly addNameRange     '2.0.1',
+366 silly addNameRange     '2.1.0',
+366 silly addNameRange     '2.2.0',
+366 silly addNameRange     '2.3.0',
+366 silly addNameRange     '2.4.0',
+366 silly addNameRange     '2.4.1',
+366 silly addNameRange     '2.6.0',
+366 silly addNameRange     '2.6.1',
+366 silly addNameRange     '2.7.0',
+366 silly addNameRange     '3.0.0',
+366 silly addNameRange     '3.1.1',
+366 silly addNameRange     '3.1.2',
+366 silly addNameRange     '3.1.3',
+366 silly addNameRange     '3.1.4',
+366 silly addNameRange     '3.2.0',
+366 silly addNameRange     '3.2.1',
+366 silly addNameRange     '3.2.2',
+366 silly addNameRange     '3.2.3',
+366 silly addNameRange     '3.2.4',
+366 silly addNameRange     '3.2.5',
+366 silly addNameRange     '3.3.0',
+366 silly addNameRange     '3.3.1',
+366 silly addNameRange     '3.3.2',
+366 silly addNameRange     '3.3.4',
+366 silly addNameRange     '3.4.0',
+366 silly addNameRange     '3.5.0',
+366 silly addNameRange     '3.5.1',
+366 silly addNameRange     '3.5.2',
+366 silly addNameRange     '3.5.5',
+366 silly addNameRange     '3.5.6',
+366 silly addNameRange     '3.6.0',
+366 silly addNameRange     '3.6.1',
+366 silly addNameRange     '3.6.2',
+366 silly addNameRange     '3.7.0',
+366 silly addNameRange     '3.8.0',
+366 silly addNameRange     '3.8.1',
+366 silly addNameRange     '3.8.2',
+366 silly addNameRange     '3.8.3',
+366 silly addNameRange     '3.8.4',
+366 silly addNameRange     '3.8.5',
+366 silly addNameRange     '3.8.6',
+366 silly addNameRange     '3.8.7',
+366 silly addNameRange     '3.8.8',
+366 silly addNameRange     '3.8.9',
+366 silly addNameRange     '3.8.10',
+366 silly addNameRange     '3.8.11',
+366 silly addNameRange     '3.9.0',
+366 silly addNameRange     '3.9.1',
+366 silly addNameRange     '4.0.0' ] ]
+367 silly pickManifestFromRegistryMetadata spec >=3.9.1 <4.0.0 tag latest versions [ '0.0.1',
+367 silly pickManifestFromRegistryMetadata   '0.0.2',
+367 silly pickManifestFromRegistryMetadata   '0.0.3',
+367 silly pickManifestFromRegistryMetadata   '0.0.4',
+367 silly pickManifestFromRegistryMetadata   '0.0.5',
+367 silly pickManifestFromRegistryMetadata   '0.0.7',
+367 silly pickManifestFromRegistryMetadata   '0.0.8',
+367 silly pickManifestFromRegistryMetadata   '0.0.9',
+367 silly pickManifestFromRegistryMetadata   '0.1.0',
+367 silly pickManifestFromRegistryMetadata   '0.2.0',
+367 silly pickManifestFromRegistryMetadata   '1.0.0',
+367 silly pickManifestFromRegistryMetadata   '1.1.0',
+367 silly pickManifestFromRegistryMetadata   '1.2.0',
+367 silly pickManifestFromRegistryMetadata   '1.2.1',
+367 silly pickManifestFromRegistryMetadata   '2.0.0',
+367 silly pickManifestFromRegistryMetadata   '2.0.1',
+367 silly pickManifestFromRegistryMetadata   '2.1.0',
+367 silly pickManifestFromRegistryMetadata   '2.2.0',
+367 silly pickManifestFromRegistryMetadata   '2.3.0',
+367 silly pickManifestFromRegistryMetadata   '2.4.0',
+367 silly pickManifestFromRegistryMetadata   '2.4.1',
+367 silly pickManifestFromRegistryMetadata   '2.6.0',
+367 silly pickManifestFromRegistryMetadata   '2.6.1',
+367 silly pickManifestFromRegistryMetadata   '2.7.0',
+367 silly pickManifestFromRegistryMetadata   '3.0.0',
+367 silly pickManifestFromRegistryMetadata   '3.1.1',
+367 silly pickManifestFromRegistryMetadata   '3.1.2',
+367 silly pickManifestFromRegistryMetadata   '3.1.3',
+367 silly pickManifestFromRegistryMetadata   '3.1.4',
+367 silly pickManifestFromRegistryMetadata   '3.2.0',
+367 silly pickManifestFromRegistryMetadata   '3.2.1',
+367 silly pickManifestFromRegistryMetadata   '3.2.2',
+367 silly pickManifestFromRegistryMetadata   '3.2.3',
+367 silly pickManifestFromRegistryMetadata   '3.2.4',
+367 silly pickManifestFromRegistryMetadata   '3.2.5',
+367 silly pickManifestFromRegistryMetadata   '3.3.0',
+367 silly pickManifestFromRegistryMetadata   '3.3.1',
+367 silly pickManifestFromRegistryMetadata   '3.3.2',
+367 silly pickManifestFromRegistryMetadata   '3.3.4',
+367 silly pickManifestFromRegistryMetadata   '3.4.0',
+367 silly pickManifestFromRegistryMetadata   '3.5.0',
+367 silly pickManifestFromRegistryMetadata   '3.5.1',
+367 silly pickManifestFromRegistryMetadata   '3.5.2',
+367 silly pickManifestFromRegistryMetadata   '3.5.5',
+367 silly pickManifestFromRegistryMetadata   '3.5.6',
+367 silly pickManifestFromRegistryMetadata   '3.6.0',
+367 silly pickManifestFromRegistryMetadata   '3.6.1',
+367 silly pickManifestFromRegistryMetadata   '3.6.2',
+367 silly pickManifestFromRegistryMetadata   '3.7.0',
+367 silly pickManifestFromRegistryMetadata   '3.8.0',
+367 silly pickManifestFromRegistryMetadata   '3.8.1',
+367 silly pickManifestFromRegistryMetadata   '3.8.2',
+367 silly pickManifestFromRegistryMetadata   '3.8.3',
+367 silly pickManifestFromRegistryMetadata   '3.8.4',
+367 silly pickManifestFromRegistryMetadata   '3.8.5',
+367 silly pickManifestFromRegistryMetadata   '3.8.6',
+367 silly pickManifestFromRegistryMetadata   '3.8.7',
+367 silly pickManifestFromRegistryMetadata   '3.8.8',
+367 silly pickManifestFromRegistryMetadata   '3.8.9',
+367 silly pickManifestFromRegistryMetadata   '3.8.10',
+367 silly pickManifestFromRegistryMetadata   '3.8.11',
+367 silly pickManifestFromRegistryMetadata   '3.9.0',
+367 silly pickManifestFromRegistryMetadata   '3.9.1',
+367 silly pickManifestFromRegistryMetadata   '4.0.0' ]
+368 silly addNamed gulp@latest
+369 verbose addNamed "latest" is being treated as a dist-tag for gulp
+370 info addNameTag [ 'gulp', 'latest' ]
+371 silly mapToRegistry name gulp
+372 silly mapToRegistry using default registry
+373 silly mapToRegistry registry https://registry.npmjs.org/
+374 silly mapToRegistry data Result {
+374 silly mapToRegistry   raw: 'gulp',
+374 silly mapToRegistry   scope: null,
+374 silly mapToRegistry   escapedName: 'gulp',
+374 silly mapToRegistry   name: 'gulp',
+374 silly mapToRegistry   rawSpec: '',
+374 silly mapToRegistry   spec: 'latest',
+374 silly mapToRegistry   type: 'tag' }
+375 silly mapToRegistry uri https://registry.npmjs.org/gulp
+376 verbose addNameTag registry:https://registry.npmjs.org/gulp already in flight; waiting
+377 silly addNameTag next cb for gulp with tag latest
+378 silly addNamed gulp@3.9.1
+379 verbose addNamed "3.9.1" is a plain semver version for gulp
+380 silly pickManifestFromRegistryMetadata spec >=1.4.0 <2.0.0 tag latest versions [ '0.0.1',
+380 silly pickManifestFromRegistryMetadata   '0.0.2',
+380 silly pickManifestFromRegistryMetadata   '0.0.3',
+380 silly pickManifestFromRegistryMetadata   '0.0.4',
+380 silly pickManifestFromRegistryMetadata   '0.0.5',
+380 silly pickManifestFromRegistryMetadata   '0.0.6',
+380 silly pickManifestFromRegistryMetadata   '0.0.7',
+380 silly pickManifestFromRegistryMetadata   '0.0.8',
+380 silly pickManifestFromRegistryMetadata   '1.0.0',
+380 silly pickManifestFromRegistryMetadata   '1.1.0',
+380 silly pickManifestFromRegistryMetadata   '1.2.0',
+380 silly pickManifestFromRegistryMetadata   '1.3.0',
+380 silly pickManifestFromRegistryMetadata   '1.4.0',
+380 silly pickManifestFromRegistryMetadata   '1.4.1',
+380 silly pickManifestFromRegistryMetadata   '1.4.2' ]
+381 silly resolveWithNewModule gulp-gzip@1.4.2 checking installable status
+382 silly cache add args [ 'gulp-gzip@^1.4.0', null ]
+383 verbose cache add spec gulp-gzip@^1.4.0
+384 silly cache add parsed spec Result {
+384 silly cache add   raw: 'gulp-gzip@^1.4.0',
+384 silly cache add   scope: null,
+384 silly cache add   escapedName: 'gulp-gzip',
+384 silly cache add   name: 'gulp-gzip',
+384 silly cache add   rawSpec: '^1.4.0',
+384 silly cache add   spec: '>=1.4.0 <2.0.0',
+384 silly cache add   type: 'range' }
+385 silly addNamed gulp-gzip@>=1.4.0 <2.0.0
+386 verbose addNamed ">=1.4.0 <2.0.0" is a valid semver range for gulp-gzip
+387 silly addNameRange { name: 'gulp-gzip', range: '>=1.4.0 <2.0.0', hasData: false }
+388 silly mapToRegistry name gulp-gzip
+389 silly mapToRegistry using default registry
+390 silly mapToRegistry registry https://registry.npmjs.org/
+391 silly mapToRegistry data Result {
+391 silly mapToRegistry   raw: 'gulp-gzip',
+391 silly mapToRegistry   scope: null,
+391 silly mapToRegistry   escapedName: 'gulp-gzip',
+391 silly mapToRegistry   name: 'gulp-gzip',
+391 silly mapToRegistry   rawSpec: '',
+391 silly mapToRegistry   spec: 'latest',
+391 silly mapToRegistry   type: 'tag' }
+392 silly mapToRegistry uri https://registry.npmjs.org/gulp-gzip
+393 verbose addNameRange registry:https://registry.npmjs.org/gulp-gzip not in flight; fetching
+394 silly pickManifestFromRegistryMetadata spec >=1.0.9 <2.0.0 tag latest versions [ '0.0.1',
+394 silly pickManifestFromRegistryMetadata   '0.0.2',
+394 silly pickManifestFromRegistryMetadata   '0.0.3',
+394 silly pickManifestFromRegistryMetadata   '0.0.4',
+394 silly pickManifestFromRegistryMetadata   '0.0.5',
+394 silly pickManifestFromRegistryMetadata   '1.0.0',
+394 silly pickManifestFromRegistryMetadata   '1.0.1',
+394 silly pickManifestFromRegistryMetadata   '1.0.2',
+394 silly pickManifestFromRegistryMetadata   '1.0.3',
+394 silly pickManifestFromRegistryMetadata   '1.0.4',
+394 silly pickManifestFromRegistryMetadata   '1.0.5',
+394 silly pickManifestFromRegistryMetadata   '1.0.6',
+394 silly pickManifestFromRegistryMetadata   '1.0.7',
+394 silly pickManifestFromRegistryMetadata   '1.0.8',
+394 silly pickManifestFromRegistryMetadata   '1.0.9' ]
+395 silly resolveWithNewModule gulp-json-replace@1.0.9 checking installable status
+396 silly cache add args [ 'gulp-json-replace@^1.0.9', null ]
+397 verbose cache add spec gulp-json-replace@^1.0.9
+398 silly cache add parsed spec Result {
+398 silly cache add   raw: 'gulp-json-replace@^1.0.9',
+398 silly cache add   scope: null,
+398 silly cache add   escapedName: 'gulp-json-replace',
+398 silly cache add   name: 'gulp-json-replace',
+398 silly cache add   rawSpec: '^1.0.9',
+398 silly cache add   spec: '>=1.0.9 <2.0.0',
+398 silly cache add   type: 'range' }
+399 silly addNamed gulp-json-replace@>=1.0.9 <2.0.0
+400 verbose addNamed ">=1.0.9 <2.0.0" is a valid semver range for gulp-json-replace
+401 silly addNameRange { name: 'gulp-json-replace',
+401 silly addNameRange   range: '>=1.0.9 <2.0.0',
+401 silly addNameRange   hasData: false }
+402 silly mapToRegistry name gulp-json-replace
+403 silly mapToRegistry using default registry
+404 silly mapToRegistry registry https://registry.npmjs.org/
+405 silly mapToRegistry data Result {
+405 silly mapToRegistry   raw: 'gulp-json-replace',
+405 silly mapToRegistry   scope: null,
+405 silly mapToRegistry   escapedName: 'gulp-json-replace',
+405 silly mapToRegistry   name: 'gulp-json-replace',
+405 silly mapToRegistry   rawSpec: '',
+405 silly mapToRegistry   spec: 'latest',
+405 silly mapToRegistry   type: 'tag' }
+406 silly mapToRegistry uri https://registry.npmjs.org/gulp-json-replace
+407 verbose addNameRange registry:https://registry.npmjs.org/gulp-json-replace not in flight; fetching
+408 silly pickManifestFromRegistryMetadata spec >=0.3.2 <0.4.0 tag latest versions [ '0.1.0',
+408 silly pickManifestFromRegistryMetadata   '0.1.2',
+408 silly pickManifestFromRegistryMetadata   '0.1.3',
+408 silly pickManifestFromRegistryMetadata   '0.2.0',
+408 silly pickManifestFromRegistryMetadata   '0.3.0',
+408 silly pickManifestFromRegistryMetadata   '0.3.1',
+408 silly pickManifestFromRegistryMetadata   '0.3.2',
+408 silly pickManifestFromRegistryMetadata   '0.3.3',
+408 silly pickManifestFromRegistryMetadata   '0.4.0',
+408 silly pickManifestFromRegistryMetadata   '0.4.1' ]
+409 silly resolveWithNewModule gulp-bootstrap-configurator@0.3.3 checking installable status
+410 silly cache add args [ 'gulp-bootstrap-configurator@^0.3.2', null ]
+411 verbose cache add spec gulp-bootstrap-configurator@^0.3.2
+412 silly cache add parsed spec Result {
+412 silly cache add   raw: 'gulp-bootstrap-configurator@^0.3.2',
+412 silly cache add   scope: null,
+412 silly cache add   escapedName: 'gulp-bootstrap-configurator',
+412 silly cache add   name: 'gulp-bootstrap-configurator',
+412 silly cache add   rawSpec: '^0.3.2',
+412 silly cache add   spec: '>=0.3.2 <0.4.0',
+412 silly cache add   type: 'range' }
+413 silly addNamed gulp-bootstrap-configurator@>=0.3.2 <0.4.0
+414 verbose addNamed ">=0.3.2 <0.4.0" is a valid semver range for gulp-bootstrap-configurator
+415 silly addNameRange { name: 'gulp-bootstrap-configurator',
+415 silly addNameRange   range: '>=0.3.2 <0.4.0',
+415 silly addNameRange   hasData: false }
+416 silly mapToRegistry name gulp-bootstrap-configurator
+417 silly mapToRegistry using default registry
+418 silly mapToRegistry registry https://registry.npmjs.org/
+419 silly mapToRegistry data Result {
+419 silly mapToRegistry   raw: 'gulp-bootstrap-configurator',
+419 silly mapToRegistry   scope: null,
+419 silly mapToRegistry   escapedName: 'gulp-bootstrap-configurator',
+419 silly mapToRegistry   name: 'gulp-bootstrap-configurator',
+419 silly mapToRegistry   rawSpec: '',
+419 silly mapToRegistry   spec: 'latest',
+419 silly mapToRegistry   type: 'tag' }
+420 silly mapToRegistry uri https://registry.npmjs.org/gulp-bootstrap-configurator
+421 verbose addNameRange registry:https://registry.npmjs.org/gulp-bootstrap-configurator not in flight; fetching
+422 silly pickManifestFromRegistryMetadata spec >=3.5.0 <4.0.0 tag latest versions [ '1.0.0',
+422 silly pickManifestFromRegistryMetadata   '1.0.1',
+422 silly pickManifestFromRegistryMetadata   '1.0.2',
+422 silly pickManifestFromRegistryMetadata   '2.0.0',
+422 silly pickManifestFromRegistryMetadata   '2.0.1',
+422 silly pickManifestFromRegistryMetadata   '2.0.2',
+422 silly pickManifestFromRegistryMetadata   '2.0.3',
+422 silly pickManifestFromRegistryMetadata   '2.0.4',
+422 silly pickManifestFromRegistryMetadata   '2.0.5',
+422 silly pickManifestFromRegistryMetadata   '2.0.6',
+422 silly pickManifestFromRegistryMetadata   '2.0.7',
+422 silly pickManifestFromRegistryMetadata   '2.0.8',
+422 silly pickManifestFromRegistryMetadata   '2.0.9',
+422 silly pickManifestFromRegistryMetadata   '2.0.10',
+422 silly pickManifestFromRegistryMetadata   '2.0.11',
+422 silly pickManifestFromRegistryMetadata   '2.0.12',
+422 silly pickManifestFromRegistryMetadata   '2.0.13',
+422 silly pickManifestFromRegistryMetadata   '2.1.0',
+422 silly pickManifestFromRegistryMetadata   '2.1.1',
+422 silly pickManifestFromRegistryMetadata   '2.1.2',
+422 silly pickManifestFromRegistryMetadata   '2.1.3',
+422 silly pickManifestFromRegistryMetadata   '2.2.0',
+422 silly pickManifestFromRegistryMetadata   '2.2.1',
+422 silly pickManifestFromRegistryMetadata   '2.2.2',
+422 silly pickManifestFromRegistryMetadata   '2.3.0',
+422 silly pickManifestFromRegistryMetadata   '2.3.1',
+422 silly pickManifestFromRegistryMetadata   '2.3.2',
+422 silly pickManifestFromRegistryMetadata   '2.4.0',
+422 silly pickManifestFromRegistryMetadata   '3.0.0',
+422 silly pickManifestFromRegistryMetadata   '3.0.1',
+422 silly pickManifestFromRegistryMetadata   '3.0.2',
+422 silly pickManifestFromRegistryMetadata   '3.0.3',
+422 silly pickManifestFromRegistryMetadata   '3.0.4',
+422 silly pickManifestFromRegistryMetadata   '3.1.0',
+422 silly pickManifestFromRegistryMetadata   '3.1.1',
+422 silly pickManifestFromRegistryMetadata   '3.2.0',
+422 silly pickManifestFromRegistryMetadata   '3.3.0',
+422 silly pickManifestFromRegistryMetadata   '3.3.1',
+422 silly pickManifestFromRegistryMetadata   '3.4.0',
+422 silly pickManifestFromRegistryMetadata   '3.4.1',
+422 silly pickManifestFromRegistryMetadata   '3.4.2',
+422 silly pickManifestFromRegistryMetadata   '3.5.0',
+422 silly pickManifestFromRegistryMetadata   '3.6.0',
+422 silly pickManifestFromRegistryMetadata   '3.7.0',
+422 silly pickManifestFromRegistryMetadata   '3.8.0',
+422 silly pickManifestFromRegistryMetadata   '3.9.0',
+422 silly pickManifestFromRegistryMetadata   '3.9.1',
+422 silly pickManifestFromRegistryMetadata   '3.9.2' ]
+423 silly resolveWithNewModule gulp-clean-css@3.9.2 checking installable status
+424 silly cache add args [ 'gulp-clean-css@^3.5.0', null ]
+425 verbose cache add spec gulp-clean-css@^3.5.0
+426 silly cache add parsed spec Result {
+426 silly cache add   raw: 'gulp-clean-css@^3.5.0',
+426 silly cache add   scope: null,
+426 silly cache add   escapedName: 'gulp-clean-css',
+426 silly cache add   name: 'gulp-clean-css',
+426 silly cache add   rawSpec: '^3.5.0',
+426 silly cache add   spec: '>=3.5.0 <4.0.0',
+426 silly cache add   type: 'range' }
+427 silly addNamed gulp-clean-css@>=3.5.0 <4.0.0
+428 verbose addNamed ">=3.5.0 <4.0.0" is a valid semver range for gulp-clean-css
+429 silly addNameRange { name: 'gulp-clean-css',
+429 silly addNameRange   range: '>=3.5.0 <4.0.0',
+429 silly addNameRange   hasData: false }
+430 silly mapToRegistry name gulp-clean-css
+431 silly mapToRegistry using default registry
+432 silly mapToRegistry registry https://registry.npmjs.org/
+433 silly mapToRegistry data Result {
+433 silly mapToRegistry   raw: 'gulp-clean-css',
+433 silly mapToRegistry   scope: null,
+433 silly mapToRegistry   escapedName: 'gulp-clean-css',
+433 silly mapToRegistry   name: 'gulp-clean-css',
+433 silly mapToRegistry   rawSpec: '',
+433 silly mapToRegistry   spec: 'latest',
+433 silly mapToRegistry   type: 'tag' }
+434 silly mapToRegistry uri https://registry.npmjs.org/gulp-clean-css
+435 verbose addNameRange registry:https://registry.npmjs.org/gulp-clean-css not in flight; fetching
+436 silly cache afterAdd gulp-bower@0.0.13
+437 verbose afterAdd /Users/saradiemer/.npm/gulp-bower/0.0.13/package/package.json not in flight; writing
+438 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+439 verbose get https://registry.npmjs.org/gulp-gzip not expired, no request
+440 silly addNameRange number 2 { name: 'gulp-gzip', range: '>=1.4.0 <2.0.0', hasData: true }
+441 silly addNameRange versions [ 'gulp-gzip',
+441 silly addNameRange   [ '0.0.1',
+441 silly addNameRange     '0.0.2',
+441 silly addNameRange     '0.0.3',
+441 silly addNameRange     '0.0.4',
+441 silly addNameRange     '0.0.5',
+441 silly addNameRange     '0.0.6',
+441 silly addNameRange     '0.0.7',
+441 silly addNameRange     '0.0.8',
+441 silly addNameRange     '1.0.0',
+441 silly addNameRange     '1.1.0',
+441 silly addNameRange     '1.2.0',
+441 silly addNameRange     '1.3.0',
+441 silly addNameRange     '1.4.0',
+441 silly addNameRange     '1.4.1',
+441 silly addNameRange     '1.4.2' ] ]
+442 silly pickManifestFromRegistryMetadata spec >=1.4.0 <2.0.0 tag latest versions [ '0.0.1',
+442 silly pickManifestFromRegistryMetadata   '0.0.2',
+442 silly pickManifestFromRegistryMetadata   '0.0.3',
+442 silly pickManifestFromRegistryMetadata   '0.0.4',
+442 silly pickManifestFromRegistryMetadata   '0.0.5',
+442 silly pickManifestFromRegistryMetadata   '0.0.6',
+442 silly pickManifestFromRegistryMetadata   '0.0.7',
+442 silly pickManifestFromRegistryMetadata   '0.0.8',
+442 silly pickManifestFromRegistryMetadata   '1.0.0',
+442 silly pickManifestFromRegistryMetadata   '1.1.0',
+442 silly pickManifestFromRegistryMetadata   '1.2.0',
+442 silly pickManifestFromRegistryMetadata   '1.3.0',
+442 silly pickManifestFromRegistryMetadata   '1.4.0',
+442 silly pickManifestFromRegistryMetadata   '1.4.1',
+442 silly pickManifestFromRegistryMetadata   '1.4.2' ]
+443 silly addNamed gulp-gzip@latest
+444 verbose addNamed "latest" is being treated as a dist-tag for gulp-gzip
+445 info addNameTag [ 'gulp-gzip', 'latest' ]
+446 silly mapToRegistry name gulp-gzip
+447 silly mapToRegistry using default registry
+448 silly mapToRegistry registry https://registry.npmjs.org/
+449 silly mapToRegistry data Result {
+449 silly mapToRegistry   raw: 'gulp-gzip',
+449 silly mapToRegistry   scope: null,
+449 silly mapToRegistry   escapedName: 'gulp-gzip',
+449 silly mapToRegistry   name: 'gulp-gzip',
+449 silly mapToRegistry   rawSpec: '',
+449 silly mapToRegistry   spec: 'latest',
+449 silly mapToRegistry   type: 'tag' }
+450 silly mapToRegistry uri https://registry.npmjs.org/gulp-gzip
+451 verbose addNameTag registry:https://registry.npmjs.org/gulp-gzip already in flight; waiting
+452 silly addNameTag next cb for gulp-gzip with tag latest
+453 silly addNamed gulp-gzip@1.4.2
+454 verbose addNamed "1.4.2" is a plain semver version for gulp-gzip
+455 verbose get https://registry.npmjs.org/gulp-json-replace not expired, no request
+456 silly addNameRange number 2 { name: 'gulp-json-replace',
+456 silly addNameRange   range: '>=1.0.9 <2.0.0',
+456 silly addNameRange   hasData: true }
+457 silly addNameRange versions [ 'gulp-json-replace',
+457 silly addNameRange   [ '0.0.1',
+457 silly addNameRange     '0.0.2',
+457 silly addNameRange     '0.0.3',
+457 silly addNameRange     '0.0.4',
+457 silly addNameRange     '0.0.5',
+457 silly addNameRange     '1.0.0',
+457 silly addNameRange     '1.0.1',
+457 silly addNameRange     '1.0.2',
+457 silly addNameRange     '1.0.3',
+457 silly addNameRange     '1.0.4',
+457 silly addNameRange     '1.0.5',
+457 silly addNameRange     '1.0.6',
+457 silly addNameRange     '1.0.7',
+457 silly addNameRange     '1.0.8',
+457 silly addNameRange     '1.0.9' ] ]
+458 silly pickManifestFromRegistryMetadata spec >=1.0.9 <2.0.0 tag latest versions [ '0.0.1',
+458 silly pickManifestFromRegistryMetadata   '0.0.2',
+458 silly pickManifestFromRegistryMetadata   '0.0.3',
+458 silly pickManifestFromRegistryMetadata   '0.0.4',
+458 silly pickManifestFromRegistryMetadata   '0.0.5',
+458 silly pickManifestFromRegistryMetadata   '1.0.0',
+458 silly pickManifestFromRegistryMetadata   '1.0.1',
+458 silly pickManifestFromRegistryMetadata   '1.0.2',
+458 silly pickManifestFromRegistryMetadata   '1.0.3',
+458 silly pickManifestFromRegistryMetadata   '1.0.4',
+458 silly pickManifestFromRegistryMetadata   '1.0.5',
+458 silly pickManifestFromRegistryMetadata   '1.0.6',
+458 silly pickManifestFromRegistryMetadata   '1.0.7',
+458 silly pickManifestFromRegistryMetadata   '1.0.8',
+458 silly pickManifestFromRegistryMetadata   '1.0.9' ]
+459 silly addNamed gulp-json-replace@latest
+460 verbose addNamed "latest" is being treated as a dist-tag for gulp-json-replace
+461 info addNameTag [ 'gulp-json-replace', 'latest' ]
+462 silly mapToRegistry name gulp-json-replace
+463 silly mapToRegistry using default registry
+464 silly mapToRegistry registry https://registry.npmjs.org/
+465 silly mapToRegistry data Result {
+465 silly mapToRegistry   raw: 'gulp-json-replace',
+465 silly mapToRegistry   scope: null,
+465 silly mapToRegistry   escapedName: 'gulp-json-replace',
+465 silly mapToRegistry   name: 'gulp-json-replace',
+465 silly mapToRegistry   rawSpec: '',
+465 silly mapToRegistry   spec: 'latest',
+465 silly mapToRegistry   type: 'tag' }
+466 silly mapToRegistry uri https://registry.npmjs.org/gulp-json-replace
+467 verbose addNameTag registry:https://registry.npmjs.org/gulp-json-replace already in flight; waiting
+468 silly addNameTag next cb for gulp-json-replace with tag latest
+469 silly addNamed gulp-json-replace@1.0.9
+470 verbose addNamed "1.0.9" is a plain semver version for gulp-json-replace
+471 verbose get https://registry.npmjs.org/gulp-bootstrap-configurator not expired, no request
+472 silly addNameRange number 2 { name: 'gulp-bootstrap-configurator',
+472 silly addNameRange   range: '>=0.3.2 <0.4.0',
+472 silly addNameRange   hasData: true }
+473 silly addNameRange versions [ 'gulp-bootstrap-configurator',
+473 silly addNameRange   [ '0.1.0',
+473 silly addNameRange     '0.1.2',
+473 silly addNameRange     '0.1.3',
+473 silly addNameRange     '0.2.0',
+473 silly addNameRange     '0.3.0',
+473 silly addNameRange     '0.3.1',
+473 silly addNameRange     '0.3.2',
+473 silly addNameRange     '0.3.3',
+473 silly addNameRange     '0.4.0',
+473 silly addNameRange     '0.4.1' ] ]
+474 silly pickManifestFromRegistryMetadata spec >=0.3.2 <0.4.0 tag latest versions [ '0.1.0',
+474 silly pickManifestFromRegistryMetadata   '0.1.2',
+474 silly pickManifestFromRegistryMetadata   '0.1.3',
+474 silly pickManifestFromRegistryMetadata   '0.2.0',
+474 silly pickManifestFromRegistryMetadata   '0.3.0',
+474 silly pickManifestFromRegistryMetadata   '0.3.1',
+474 silly pickManifestFromRegistryMetadata   '0.3.2',
+474 silly pickManifestFromRegistryMetadata   '0.3.3',
+474 silly pickManifestFromRegistryMetadata   '0.4.0',
+474 silly pickManifestFromRegistryMetadata   '0.4.1' ]
+475 silly addNamed gulp-bootstrap-configurator@0.3.3
+476 verbose addNamed "0.3.3" is a plain semver version for gulp-bootstrap-configurator
+477 verbose get https://registry.npmjs.org/gulp-clean-css not expired, no request
+478 silly addNameRange number 2 { name: 'gulp-clean-css',
+478 silly addNameRange   range: '>=3.5.0 <4.0.0',
+478 silly addNameRange   hasData: true }
+479 silly addNameRange versions [ 'gulp-clean-css',
+479 silly addNameRange   [ '1.0.0',
+479 silly addNameRange     '1.0.1',
+479 silly addNameRange     '1.0.2',
+479 silly addNameRange     '2.0.0',
+479 silly addNameRange     '2.0.1',
+479 silly addNameRange     '2.0.2',
+479 silly addNameRange     '2.0.3',
+479 silly addNameRange     '2.0.4',
+479 silly addNameRange     '2.0.5',
+479 silly addNameRange     '2.0.6',
+479 silly addNameRange     '2.0.7',
+479 silly addNameRange     '2.0.8',
+479 silly addNameRange     '2.0.9',
+479 silly addNameRange     '2.0.10',
+479 silly addNameRange     '2.0.11',
+479 silly addNameRange     '2.0.12',
+479 silly addNameRange     '2.0.13',
+479 silly addNameRange     '2.1.0',
+479 silly addNameRange     '2.1.1',
+479 silly addNameRange     '2.1.2',
+479 silly addNameRange     '2.1.3',
+479 silly addNameRange     '2.2.0',
+479 silly addNameRange     '2.2.1',
+479 silly addNameRange     '2.2.2',
+479 silly addNameRange     '2.3.0',
+479 silly addNameRange     '2.3.1',
+479 silly addNameRange     '2.3.2',
+479 silly addNameRange     '2.4.0',
+479 silly addNameRange     '3.0.0',
+479 silly addNameRange     '3.0.1',
+479 silly addNameRange     '3.0.2',
+479 silly addNameRange     '3.0.3',
+479 silly addNameRange     '3.0.4',
+479 silly addNameRange     '3.1.0',
+479 silly addNameRange     '3.1.1',
+479 silly addNameRange     '3.2.0',
+479 silly addNameRange     '3.3.0',
+479 silly addNameRange     '3.3.1',
+479 silly addNameRange     '3.4.0',
+479 silly addNameRange     '3.4.1',
+479 silly addNameRange     '3.4.2',
+479 silly addNameRange     '3.5.0',
+479 silly addNameRange     '3.6.0',
+479 silly addNameRange     '3.7.0',
+479 silly addNameRange     '3.8.0',
+479 silly addNameRange     '3.9.0',
+479 silly addNameRange     '3.9.1',
+479 silly addNameRange     '3.9.2' ] ]
+480 silly pickManifestFromRegistryMetadata spec >=3.5.0 <4.0.0 tag latest versions [ '1.0.0',
+480 silly pickManifestFromRegistryMetadata   '1.0.1',
+480 silly pickManifestFromRegistryMetadata   '1.0.2',
+480 silly pickManifestFromRegistryMetadata   '2.0.0',
+480 silly pickManifestFromRegistryMetadata   '2.0.1',
+480 silly pickManifestFromRegistryMetadata   '2.0.2',
+480 silly pickManifestFromRegistryMetadata   '2.0.3',
+480 silly pickManifestFromRegistryMetadata   '2.0.4',
+480 silly pickManifestFromRegistryMetadata   '2.0.5',
+480 silly pickManifestFromRegistryMetadata   '2.0.6',
+480 silly pickManifestFromRegistryMetadata   '2.0.7',
+480 silly pickManifestFromRegistryMetadata   '2.0.8',
+480 silly pickManifestFromRegistryMetadata   '2.0.9',
+480 silly pickManifestFromRegistryMetadata   '2.0.10',
+480 silly pickManifestFromRegistryMetadata   '2.0.11',
+480 silly pickManifestFromRegistryMetadata   '2.0.12',
+480 silly pickManifestFromRegistryMetadata   '2.0.13',
+480 silly pickManifestFromRegistryMetadata   '2.1.0',
+480 silly pickManifestFromRegistryMetadata   '2.1.1',
+480 silly pickManifestFromRegistryMetadata   '2.1.2',
+480 silly pickManifestFromRegistryMetadata   '2.1.3',
+480 silly pickManifestFromRegistryMetadata   '2.2.0',
+480 silly pickManifestFromRegistryMetadata   '2.2.1',
+480 silly pickManifestFromRegistryMetadata   '2.2.2',
+480 silly pickManifestFromRegistryMetadata   '2.3.0',
+480 silly pickManifestFromRegistryMetadata   '2.3.1',
+480 silly pickManifestFromRegistryMetadata   '2.3.2',
+480 silly pickManifestFromRegistryMetadata   '2.4.0',
+480 silly pickManifestFromRegistryMetadata   '3.0.0',
+480 silly pickManifestFromRegistryMetadata   '3.0.1',
+480 silly pickManifestFromRegistryMetadata   '3.0.2',
+480 silly pickManifestFromRegistryMetadata   '3.0.3',
+480 silly pickManifestFromRegistryMetadata   '3.0.4',
+480 silly pickManifestFromRegistryMetadata   '3.1.0',
+480 silly pickManifestFromRegistryMetadata   '3.1.1',
+480 silly pickManifestFromRegistryMetadata   '3.2.0',
+480 silly pickManifestFromRegistryMetadata   '3.3.0',
+480 silly pickManifestFromRegistryMetadata   '3.3.1',
+480 silly pickManifestFromRegistryMetadata   '3.4.0',
+480 silly pickManifestFromRegistryMetadata   '3.4.1',
+480 silly pickManifestFromRegistryMetadata   '3.4.2',
+480 silly pickManifestFromRegistryMetadata   '3.5.0',
+480 silly pickManifestFromRegistryMetadata   '3.6.0',
+480 silly pickManifestFromRegistryMetadata   '3.7.0',
+480 silly pickManifestFromRegistryMetadata   '3.8.0',
+480 silly pickManifestFromRegistryMetadata   '3.9.0',
+480 silly pickManifestFromRegistryMetadata   '3.9.1',
+480 silly pickManifestFromRegistryMetadata   '3.9.2' ]
+481 silly addNamed gulp-clean-css@latest
+482 verbose addNamed "latest" is being treated as a dist-tag for gulp-clean-css
+483 info addNameTag [ 'gulp-clean-css', 'latest' ]
+484 silly mapToRegistry name gulp-clean-css
+485 silly mapToRegistry using default registry
+486 silly mapToRegistry registry https://registry.npmjs.org/
+487 silly mapToRegistry data Result {
+487 silly mapToRegistry   raw: 'gulp-clean-css',
+487 silly mapToRegistry   scope: null,
+487 silly mapToRegistry   escapedName: 'gulp-clean-css',
+487 silly mapToRegistry   name: 'gulp-clean-css',
+487 silly mapToRegistry   rawSpec: '',
+487 silly mapToRegistry   spec: 'latest',
+487 silly mapToRegistry   type: 'tag' }
+488 silly mapToRegistry uri https://registry.npmjs.org/gulp-clean-css
+489 verbose addNameTag registry:https://registry.npmjs.org/gulp-clean-css already in flight; waiting
+490 silly addNameTag next cb for gulp-clean-css with tag latest
+491 silly addNamed gulp-clean-css@3.9.2
+492 verbose addNamed "3.9.2" is a plain semver version for gulp-clean-css
+493 silly cache afterAdd gulp@3.9.1
+494 verbose afterAdd /Users/saradiemer/.npm/gulp/3.9.1/package/package.json not in flight; writing
+495 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+496 silly cache afterAdd gulp-gzip@1.4.2
+497 verbose afterAdd /Users/saradiemer/.npm/gulp-gzip/1.4.2/package/package.json not in flight; writing
+498 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+499 silly cache afterAdd gulp-json-replace@1.0.9
+500 verbose afterAdd /Users/saradiemer/.npm/gulp-json-replace/1.0.9/package/package.json not in flight; writing
+501 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+502 silly cache afterAdd gulp-bootstrap-configurator@0.3.3
+503 verbose afterAdd /Users/saradiemer/.npm/gulp-bootstrap-configurator/0.3.3/package/package.json not in flight; writing
+504 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+505 silly cache afterAdd gulp-clean-css@3.9.2
+506 verbose afterAdd /Users/saradiemer/.npm/gulp-clean-css/3.9.2/package/package.json not in flight; writing
+507 verbose correctMkdir /Users/saradiemer/.npm correctMkdir not in flight; initializing
+508 verbose afterAdd /Users/saradiemer/.npm/gulp-bower/0.0.13/package/package.json written
+509 verbose afterAdd /Users/saradiemer/.npm/gulp/3.9.1/package/package.json written
+510 verbose afterAdd /Users/saradiemer/.npm/gulp-json-replace/1.0.9/package/package.json written
+511 verbose afterAdd /Users/saradiemer/.npm/gulp-gzip/1.4.2/package/package.json written
+512 verbose afterAdd /Users/saradiemer/.npm/gulp-bootstrap-configurator/0.3.3/package/package.json written
+513 verbose afterAdd /Users/saradiemer/.npm/gulp-clean-css/3.9.2/package/package.json written
+514 http 404 https://registry.npmjs.org/gulp-renamenpm
+515 verbose headers { 'content-type': 'application/json',
+515 verbose headers   'cache-control': 'max-age=0',
+515 verbose headers   'content-length': '2',
+515 verbose headers   'accept-ranges': 'bytes',
+515 verbose headers   date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+515 verbose headers   via: '1.1 varnish',
+515 verbose headers   connection: 'keep-alive',
+515 verbose headers   'x-served-by': 'cache-ord1735-ORD',
+515 verbose headers   'x-cache': 'MISS',
+515 verbose headers   'x-cache-hits': '0',
+515 verbose headers   'x-timer': 'S1519339202.455990,VS0,VE300',
+515 verbose headers   vary: 'Accept-Encoding' }
+516 silly get cb [ 404,
+516 silly get   { 'content-type': 'application/json',
+516 silly get     'cache-control': 'max-age=0',
+516 silly get     'content-length': '2',
+516 silly get     'accept-ranges': 'bytes',
+516 silly get     date: 'Thu, 22 Feb 2018 22:40:02 GMT',
+516 silly get     via: '1.1 varnish',
+516 silly get     connection: 'keep-alive',
+516 silly get     'x-served-by': 'cache-ord1735-ORD',
+516 silly get     'x-cache': 'MISS',
+516 silly get     'x-cache-hits': '0',
+516 silly get     'x-timer': 'S1519339202.455990,VS0,VE300',
+516 silly get     vary: 'Accept-Encoding' } ]
+517 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/gulp-renamenpm
+517 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:304:12)
+517 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:282:14)
+517 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:212:14)
+517 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:186:22)
+517 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+517 silly fetchPackageMetaData     at Request.emit (events.js:194:7)
+517 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1081:10)
+517 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+517 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+517 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1001:12)
+517 silly fetchPackageMetaData  error for gulp-renamenpm@^1.2.2 { Error: Registry returned 404 for GET on https://registry.npmjs.org/gulp-renamenpm
+517 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:304:12)
+517 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:282:14)
+517 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:212:14)
+517 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:186:22)
+517 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+517 silly fetchPackageMetaData     at Request.emit (events.js:194:7)
+517 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1081:10)
+517 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+517 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+517 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1001:12) pkgid: 'gulp-renamenpm', statusCode: 404, code: 'E404' }
+518 silly rollbackFailedOptional Starting
+519 silly rollbackFailedOptional Finishing
+520 silly runTopLevelLifecycles Finishing
+521 silly install printInstalled
+522 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/gulp-renamenpm
+522 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:304:12)
+522 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:282:14)
+522 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:212:14)
+522 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:186:22)
+522 verbose stack     at emitTwo (events.js:106:13)
+522 verbose stack     at Request.emit (events.js:194:7)
+522 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1081:10)
+522 verbose stack     at emitOne (events.js:96:13)
+522 verbose stack     at Request.emit (events.js:191:7)
+522 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1001:12)
+523 verbose statusCode 404
+524 verbose pkgid gulp-renamenpm
+525 verbose cwd /Users/saradiemer/Sites/Sites/rhythms
+526 error Darwin 17.4.0
+527 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+528 error node v7.7.4
+529 error npm  v4.1.2
+530 error code E404
+531 error 404 Registry returned 404 for GET on https://registry.npmjs.org/gulp-renamenpm
+532 error 404
+533 error 404 'gulp-renamenpm' is not in the npm registry.
+534 error 404 You should bug the author to publish it (or use the name yourself!)
+535 error 404 It was specified as a dependency of 'b3-fw-ug'
+536 error 404 Note that you can also install from a
+537 error 404 tarball, folder, http url, or git url.
+538 verbose exit [ 1, true ]
